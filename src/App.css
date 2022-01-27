@@ -24,7 +24,7 @@
 {
  position: absolute;
  top: 60px;
- left: 515px;
+ left: 500px;
 }
 
 .btn-container
@@ -59,7 +59,7 @@
 @media only screen and (min-width: 1024px)
 {
   .search-form {
-    left: 26rem;
+    left: 34rem;
   }
   .header {
     position: absolute;
