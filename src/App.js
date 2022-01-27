@@ -6,16 +6,22 @@ import './App.css';
 import { AppProvider } from './Components/context';
 import Header from './Components/Header'
 
+
 function App() {
+  
+ 
+  
   return (
    <>
+   
     <AppProvider>
     <Header />
     <SearchForm />
     <Buttons />
     <Stories />
     </AppProvider>
-   </>
+   
+    </>
   );
 }
 

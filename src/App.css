@@ -13,3 +13,56 @@
 {
   cursor: not-allowed;
 }
+
+.header
+{
+  position: absolute;
+ left: 10px;
+}
+
+.search-form
+{
+ position: absolute;
+ top: 60px;
+ left: 515px;
+}
+
+.btn-container
+{
+  display: flex;
+  justify-content: center;
+  top: 100px;
+}
+
+
+@media only screen and (min-width: 320px) 
+{
+    .search-form {
+      left: 5rem;
+
+    }
+    .header {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .search-form {
+      left: 19rem;
+    }
+    .header {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px)
+{
+  .search-form {
+    left: 26rem;
+  }
+  .header {
+    position: absolute;
+    left: 10px;
+  }
+}
